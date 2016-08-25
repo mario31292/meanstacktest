@@ -1,0 +1,172 @@
+{
+    "id" : "97psj",
+     "name" : "Corner bottom left image",
+     "type" : "1",
+     "language" : "es",
+     "version" : "1.0.0",
+     "isenabled" : "true",
+      "param" : [
+         {
+            "id" : "description",
+             "value" : "&nbsp;" 
+        },
+         {
+            "id" : "readystatus",
+             "value" : "false" 
+        },
+         {
+            "id" : "readyuser",
+             "value" : "&nbsp;" 
+        },
+         {
+            "id" : "readydate",
+             "value" : "0001-01-01T00:00:00.0000000" 
+        },
+         {
+            "id" : "audionotes",
+             "value" : "&nbsp;" 
+        },
+         {
+            "id" : "layout",
+             "value" : "1" 
+        },
+         {
+            "id" : "isvisible",
+             "value" : "true" 
+        },
+         {
+            "id" : "title_color",
+             "value" : "&nbsp;" 
+        },
+         {
+            "id" : "languagestyle",
+             "value" : "0" 
+        },
+         {
+            "id" : "theme_color",
+             "value" : "0x006699" 
+        },
+         {
+            "id" : "useembeddedfonts",
+             "value" : "&nbsp;" 
+        },
+         {
+            "id" : "istest",
+             "value" : "false" 
+        },
+         {
+            "id" : "cc",
+             "value" : "&nbsp;" 
+        },
+         {
+            "id" : "a1courier",
+             "value" : "false" 
+        } 
+    ],
+      "text" : [
+         {
+            "id" : "review",
+             "type" : "0",
+             "datecreated" : "30/01/2013 18:48:37",
+             "datemodified" : "2013-01-30T18:48:37.7391948",
+             "notes" : "",
+             "content" : "Regresar",
+              "param" : [
+                  
+            ] 
+        },{
+            "id" : "message_idea",
+             "type" : "0",
+             "datecreated" : "23/08/2013 18:00:00",
+             "datemodified" : "2013-01-30T18:48:37.7391948",
+             "notes" : "",
+             "content" : "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+              "param" : [
+                  
+            ] 
+        },{
+            "id" : "message_example",
+             "type" : "0",
+             "datecreated" : "23/08/2013 18:00:00",
+             "datemodified" : "2013-01-30T18:48:37.7391948",
+             "notes" : "",
+             "content" : "Mauris iaculis id dui ut imperdiet. Phasellus orci mauris, laoreet et porta ac, malesuada non diam. Sed elementum risus leo, ut pellentesque arcu cursus vel. Maecenas hendrerit, orci sit amet posuere volutpat, metus justo pharetra nulla, aliquet tristique elit massa nec augue. Aliquam elementum urna at dictum molestie. In euismod eleifend suscipit. Donec sed tellus at risus consectetur commodo laoreet sed arcu. In tincidunt vulputate dolor in vehicula. Nullam eget augue viverra, condimentum nibh at, ornare sem. Aliquam ornare suscipit ex malesuada varius. Nulla suscipit mollis lacus, sit amet porttitor ante convallis at. Aliquam rhoncus blandit erat, facilisis pulvinar augue scelerisque ac.",
+              "param" : [
+                  
+            ] 
+        }
+    ],
+      "audio" : [
+         {
+            "id" : "a1",
+             "type" : "1",
+             "notes" : "",
+             "creator" : "",
+             "statususer" : "",
+             "datecreated" : "30/01/2013 18:48:53",
+             "datemodified" : "2013-01-30T18:48:53.9789167",
+             "status" : "0",
+             "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+              "source" : [
+                 {
+                    "src" : "00000_a1.mp3",
+                     "type" : "audio/mpeg" 
+                },
+                 {
+                    "src" : "00000_a1.ogg",
+                     "type" : "audio/ogg" 
+                } 
+            ],
+              "param" : [
+                  
+            ] 
+        },
+         {
+            "id" : "a2",
+             "type" : "1",
+             "notes" : "",
+             "creator" : "",
+             "statususer" : "",
+             "datecreated" : "30/01/2013 18:48:53",
+             "datemodified" : "2013-01-30T18:48:53.9789167",
+             "status" : "0",
+             "content" : "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>",
+              "source" : [
+                 {
+                    "src" : "00000_a2.mp3",
+                     "type" : "audio/mpeg" 
+                },
+                 {
+                    "src" : "00000_a2.ogg",
+                     "type" : "audio/ogg" 
+                } 
+            ],
+              "param" : [
+                  
+            ] 
+        } 
+    ],
+      "image" : [
+         {
+            "id" : "i1",
+             "type" : "1",
+             "notes" : "",
+             "creator" : "",
+             "statususer" : "",
+             "datecreated" : "30/01/2013 18:48:53",
+             "isanimation" : "False",
+             "datemodified" : "",
+             "status" : "0",
+             "content" : "Aenean elementum viverra odio, id sagittis est dapibus sit amet. Vestibulum quam augue, placerat vitae aliquam ut, ultrices nec tortor. Suspendisse iaculis ultricies ante, ac aliquam erat vestibulum ac. Aliquam suscipit ante at augue hendrerit suscipit auctor nulla feugiat. Cras aliquet malesuada tortor, eu euismod nunc dapibus vel. Integer sit amet ipsum turpis. Cras at metus fringilla neque placerat iaculis eu in odio. Nam malesuada lectus quis metus dapibus euismod. Duis sem arcu, pulvinar ut pulvinar a, ultrices at lacus. Curabitur leo tortor, gravida non condimentum id, lacinia sit amet erat. Quisque rhoncus tempor lacus eu rhoncus. Vestibulum mattis scelerisque neque, molestie dapibus metus vulputate eu. Morbi rutrum gravida tortor, auctor sollicitudin dolor venenatis sed.",
+              "source" : [
+                 {
+                    "src" : "00000_i1.jpg",
+                     "type" : "jpg" 
+                } 
+            ],
+              "param" : [
+                  
+            ] 
+        } 
+    ] 
+    }

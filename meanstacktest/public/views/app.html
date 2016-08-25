@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <base href="/">
+  <title>MEAN Stack Test</title>
+  <link href="css/app.css" rel="stylesheet"/>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Bootstrap compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
+  <!-- Bootstrap compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="content" ng-controller="AppCtrl">
+    <div class="header_app">MEAN Stack Test</div>
+    <div class="col-md-12" ng-controller="AppCtrl">
+      <div class="col-md-12 text-right">
+        <h4 class="user_data">{{user.fname + " " + user.lname + " (" + user.login + ") "}}<a ng-href="{{logout}}" ng-click="logout()">logout</a></h4>
+      </div>
+      <div class="courses_content">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>
+                  <div class="row_table">
+                    <div class="col-md-3 col_code">
+                      <span>Course Code</span>
+                    </div>
+                    <div class="col-md-3 col_name">
+                      <span>Course Name</span>
+                    </div>
+                    <div class="col-md-6 col_details text-right">
+                      <span class="text-right">Details</span>
+                    </div>
+                  </div>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="course in courses">
+                <td class="row_course">
+                  <div ng-click="act(course._id)" class="col-md-12 row_table">
+                    <div class="col-md-3 col_code">
+                      <span>{{course.code}}</span>
+                    </div>
+                    <div class="col-md-3 col_name">
+                      <span>{{course.name}}</span>
+                    </div>
+                    <div class="col-md-6 col_details text-right">
+                      <span class="text-right">details</span>
+                    </div>
+                  </div>
+                  <div id="{{course._id}}" style="display:{{hide}};">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10 row_info">
+                      <div>{{course.description}}</div>
+                      <div class="text-right link"><a target="_blank" href="{{course.launch}}">launch</a></div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+  </div>
+  </div><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script  type="text/javascript" src="./js/controllers/controller.js"></script>
+</body>
+</html>

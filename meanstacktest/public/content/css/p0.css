@@ -1,0 +1,41 @@
+/*
+ VERY IMPORTANT!!! 
+ - always use .screen-container before each style definitions 
+   in order to encapsulate styles and prevent inappropriate behaviors
+*/
+
+.screen-container {float:left; width: 100%;margin-top:30px;}
+.screen-container #title {float: left;width:100%;font-weight: bold;display: none;margin: 5px 0;font-size: 18px;position: relative;
+	animation: animacion_horizontal 2s;}
+.screen-container #a1 {float:left; width: 100%;display: none;position: relative;
+	animation: animacion_vertical 1s;}
+.screen-container #a2 {float:right; width: 40%;display: none;position: relative;
+	animation: animacion_vertical 1s;}
+.screen-container #i1 {float:left; width: 58%;margin-right: 5px;height: 300px;background: #FF0180;position: relative;
+	animation: animacion_vertical 1s;}
+.screen-container a.message_idea {margin-left: 5%; width: 20%; display: none;padding: 5px 30px 5px 30px;
+	background: linear-gradient(white, #248ABD, #248ABD);color: white;border-radius: 25px;}
+.screen-container a.message_example {margin-left: 5%; width: 20%; display: none;padding: 5px 20px 5px 20px;
+	background: linear-gradient(white, #248ABD, #248ABD);color: white;border-radius: 25px;}
+
+.screen-container a.message_idea:hover {background: linear-gradient(white, #248ABD, #57BDE7);}
+.screen-container a.message_example:hover {background: linear-gradient(white, #248ABD, #57BDE7);}
+
+/*
+ VERY IMPORTANT!!! 
+ - always use .screen-container before each style definitions 
+   in order to encapsulate styles and prevent inappropriate behaviors
+*/
+
+
+
+
+@keyframes animacion_horizontal {
+    from {left: -300px;opacity: 0;}
+    to {left: 0px;opacity: 1;}
+}
+
+@keyframes animacion_vertical {
+    from {top: -50px;opacity: 0;}
+    to {top: 0px;opacity: 1;}
+}
